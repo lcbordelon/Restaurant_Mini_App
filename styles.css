@@ -11,3 +11,18 @@
   color: black;
   font-size: 70px;
 }
+
+/* tables.html styling */
+
+#tableTitle {
+  text-align: center;
+}
+
+#tablesubhead {
+  text-align: center;
+}
+
+#jumbo {
+  margin: auto;
+  text-align: center;
+}
