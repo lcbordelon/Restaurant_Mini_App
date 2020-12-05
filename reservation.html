@@ -11,9 +11,60 @@
       integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
       crossorigin="anonymous"
     />
+    <!--Font Awesome Icons-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./Public/styles.css" />
   </head>
   <body>
-    <p><a>API Table Link</a> | <a>API Wait List</a></p>
+  <div class="container">
+    <body>
+      <!--Jumbotron-->
+      <div class="jumbotron" id="jumbo">
+        <h1 class="display-4" id="tableTitle">Hot Restaurant</h1>
+        <hr class="my-4" />
+        <h2 id="tablesubhead">Make your Reservation</h2>
+        <button type="button" class="btn btn-danger btn-lg">
+          <i class="far fa-list-alt"> View Tables</i>
+        </button>
+        <button type="button" class="btn btn-light btn-lg">
+          <i class="fas fa-home"></i>
+        </button>
+      </div>
+    
+      <br><br>
+    
+      <!--Form-->
+      <div class="card">
+        <div class="card-header">
+          Table Reservation
+        </div>
+        <div class="card-body">
+          <form>
+            <div class="form-group">
+              <label for="name"><strong>Name</strong></label>
+              <input type="text" class="form-control" id="name" aria-describedby="name">
+            </div>
+            <div class="form-group">
+              <label for="number"><strong>Phone Number</strong></label>
+              <input type="number" class="form-control" id="number">
+            </div>
+            <div class="form-group">
+              <label for="email"><strong>Email</strong></label>
+              <input type="email" class="form-control" id="email">
+            </div>
+            <div class="form-group">
+              <label for="uniqueId"><strong>Unique ID</strong></label>
+              <input type="text" class="form-control" id="uniqueId">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+
+      <p><a>API Table Link</a> | <a>API Wait List</a></p>
+
+  </div>
   </body>
   <!-- Bootstrap JS Link -->
   <script
