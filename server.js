@@ -10,47 +10,22 @@ app.use(express.json());
 
 const reservations = [
     {
-        customerName: "tables test"
+        customerName: "Reservation",
+    phoneNumber: 1234567899,
+    customerEmail: "test@gmail.com",
+    customerID: 1234,
     }
 ]
 
 const waitList = [
     {
-        customerName: "reservations test"
-    }
-]
-
-
-app.get('/', (req, res) => res.sendFile(path.join(__dirname, 'home.html')))
-app.get('/tables', (req, res) => res.sendFile(path.join(__dirname, 'tables.html')))
-app.get('/reservations', (req, res) => res.sendFile(path.join(__dirname, 'reservation.html')))
-
-app.get('/api/reservations', (req, res) => res.json(reservations))
-app.get('/api/waitlist', (req, res) => res.json(waitList))
-
-app.listen(PORT, () => console.log(`App listening on PORT ${PORT}`))
-
-  {
-    customerName: "Waitlist",
+        customerName: "Waitlist",
     phoneNumber: 1234567899,
     customerEmail: "test@gmail.com",
     customerID: 1234,
-  },
-];
+    }
+]
 
-const waitList = [{}];
-
-
-  {
-    customerName: "tables test",
-  },
-];
-
-const waitList = [
-  {
-    customerName: "reservations test",
-  },
-];
 
 
 app.get("/", (req, res) => res.sendFile(path.join(__dirname, "home.html")));
