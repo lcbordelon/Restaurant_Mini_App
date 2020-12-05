@@ -13,25 +13,28 @@
 }
 
 #fire-icon {
-  color: black;
-  font/* tables.html styling */
-
-#tableTitle {
-    text-align: center;
-  }
-
-  #tablesubhead {
-    text-align: center;
-  }
-
-  #jumbo {
-    margin: auto;
-    text-align: center;
-  }
-
+  color: black
   -size: 70px;
+  font-size: 70px;
 }
 
 #p-text {
   font-size: 40px;
 }
+
+
+/* tables.html styling */
+
+#tableTitle {
+  text-align: center;
+}
+
+#tablesubhead {
+  text-align: center;
+}
+
+#jumbo {
+  margin: auto;
+  text-align: center;
+}
+
