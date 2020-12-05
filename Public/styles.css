@@ -1,0 +1,40 @@
+#jumbo-align {
+  margin: auto;
+  text-align: center;
+}
+
+#hotRes {
+  margin: auto;
+  text-align: center;
+  width: 50%;
+  padding: 10px;
+  font-weight: 500;
+  font-size: 100px;
+}
+
+#fire-icon {
+  color: black
+  -size: 70px;
+  font-size: 70px;
+}
+
+#p-text {
+  font-size: 40px;
+}
+
+
+/* tables.html styling */
+
+#tableTitle {
+  text-align: center;
+}
+
+#tablesubhead {
+  text-align: center;
+}
+
+#jumbo {
+  margin: auto;
+  text-align: center;
+}
+
