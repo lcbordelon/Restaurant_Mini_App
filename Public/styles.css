@@ -13,9 +13,15 @@
 }
 
 #fire-icon {
-  color: black;
+  color: black
+  -size: 70px;
   font-size: 70px;
 }
+
+#p-text {
+  font-size: 40px;
+}
+
 
 /* tables.html styling */
 
@@ -32,6 +38,3 @@
   text-align: center;
 }
 
-#p-text {
-  font-size: 40px;
-}
