@@ -14,22 +14,22 @@
 
 #fire-icon {
   color: black;
-  font-size: 70px;
-}
-
-/* tables.html styling */
+  font/* tables.html styling */
 
 #tableTitle {
-  text-align: center;
-}
+    text-align: center;
+  }
 
-#tablesubhead {
-  text-align: center;
-}
+  #tablesubhead {
+    text-align: center;
+  }
 
-#jumbo {
-  margin: auto;
-  text-align: center;
+  #jumbo {
+    margin: auto;
+    text-align: center;
+  }
+
+  -size: 70px;
 }
 
 #p-text {
