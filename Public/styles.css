@@ -29,9 +29,10 @@
     text-align: center;
   }
 
-  -size: 70px;
-}
-
 #p-text {
   font-size: 40px;
+}
+
+#res-style {
+  float: left;
 }
