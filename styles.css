@@ -1,3 +1,8 @@
+#jumbo-align {
+  margin: auto;
+  text-align: center;
+}
+
 #hotRes {
   margin: auto;
   text-align: center;
@@ -10,4 +15,8 @@
 #fire-icon {
   color: black;
   font-size: 70px;
+}
+
+#p-text {
+  font-size: 40px;
 }
