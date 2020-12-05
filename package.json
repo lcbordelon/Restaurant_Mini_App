@@ -1,0 +1,23 @@
+{
+  "name": "restaurant_mini_app",
+  "version": "1.0.0",
+  "description": "HTML - bootstrap",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lcbordelon/Restaurant_Mini_App.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lcbordelon/Restaurant_Mini_App/issues"
+  },
+  "homepage": "https://github.com/lcbordelon/Restaurant_Mini_App#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
