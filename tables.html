@@ -34,7 +34,45 @@
         <i class="fas fa-home"></i>
       </button>
     </div>
+    <div class="card">
+      <h5 class="card-header">Current Reservations</h5>
+      <div class="card-body">
+        <div style="overflow: hidden">
+          <p id="reservation-list1" class="res-style">content1</p>
+          <p class="res-style">content2</p>
+        </div>
+      </div>
+    </div>
     <p><a>API Table Link</a> | <a>API Wait List</a></p>
+
+    <script type="text/javascript">
+      fetch(`/api/reservations`, {
+        method: "GET",
+        headers: {
+          "Content-Type": "application/json",
+        },
+      })
+        .then((response) => response.json())
+        .then((data) => {
+          const reservationsEl = document.getElementById("reservation-list1");
+          console.log(data);
+          const name = data[0].customerName;
+          console.log(data[0].customerName);
+          //   const { customerName } = data;
+          //   console.log(customerName);
+
+          if (name) {
+            reservationsEl.setAttribute("style", "display: inline");
+            reservationsEl.textContent = name;
+          } else {
+            reservationsEl.textContent = "There are no reservations yet!";
+            reservationsEl.setAttribute("style", "display: none");
+          }
+        })
+        .catch((error) => {
+          console.error(error);
+        });
+    </script>
   </body>
   <!-- Bootstrap JS Link -->
   <script

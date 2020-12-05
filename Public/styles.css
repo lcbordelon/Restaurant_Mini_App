@@ -25,6 +25,14 @@
 
 /* tables.html styling */
 
+#p-text {
+  font-size: 40px;
+}
+
+#res-style {
+  float: left;
+}
+=======
 #tableTitle {
   text-align: center;
 }
